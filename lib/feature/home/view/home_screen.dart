@@ -140,6 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     SizedBox(
                       width: 300.w,
                       child: TextField(
+                        cursorColor: Colors.blue,
                         style: TextStyle(color: Colors.white),
                         controller: homeController.controller,
                         minLines: 1,
@@ -184,7 +185,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ],
                 ),
-
                 SizedBox(height: 20.h),
               ],
             ),
