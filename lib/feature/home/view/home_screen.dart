@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   ),
                                   child: Text(
                                     data.message?.toString() ?? "",
-                                    style: TextStyle(fontSize: 16),
+                                    style: TextStyle(fontSize: 16.sp,color: Colors.black),
                                   ),
                                 ),
                               )
