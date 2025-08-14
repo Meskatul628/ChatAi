@@ -5,7 +5,7 @@ class AppTheme {
 
     return ThemeData(
 
-      scaffoldBackgroundColor: Colors.white ,
+
 
 
 
